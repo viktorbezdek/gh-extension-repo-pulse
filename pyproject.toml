@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "My GH Extension"
+version = "0.1.0"
+description = ""
+authors = ["John Doe <john.doe@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cleo = {version = "^1.0.0a", allow-prereleases = true}
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
